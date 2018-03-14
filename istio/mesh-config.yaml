@@ -1,5 +1,5 @@
 # Uncomment the following line to enable mutual TLS between proxies
-authPolicy: MUTUAL_TLS
+# authPolicy: MUTUAL_TLS
 #
 # Edit this list to avoid using mTLS to connect to these services.
 # Typically, these are control services (e.g kubernetes API server) that don't have Istio sidecar
@@ -65,4 +65,4 @@ defaultConfig:
   statsdUdpAddress: istio-mixer.istio-system:9125
   # Uncomment the following line to enable mutual TLS authentication between
   # sidecars and istio control plane.
-  controlPlaneAuthPolicy: MUTUAL_TLS
+  # controlPlaneAuthPolicy: MUTUAL_TLS
